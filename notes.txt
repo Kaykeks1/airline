@@ -1,0 +1,9 @@
+manage.py can be used to:
+	make migrations - python manage.py makemigrations
+	to see SQL command that would be used to update db - python manage.py sqlmigrate *name of your app* *migration number eg 0001*
+	migrate (create tables in db) - python manage.py migrate
+	run the project - python manage.py runserver
+	create an app in the project - python manage.py startapp
+	open a django shell - python manage.py shell (ctrl z to cancel)
+	create super user for django admin - python manage.py createsuperuser
+	to perform unittest - python manage.py test
